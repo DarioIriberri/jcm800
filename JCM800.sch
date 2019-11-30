@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "JCM800 6W"
 Date ""
-Rev "0.1"
+Rev "0.2"
 Comp "Dazz"
 Comment1 ""
 Comment2 ""
@@ -740,7 +740,7 @@ U 1 1 5DD9A56D
 P 7450 2950
 F 0 "R13" V 7243 2950 50  0000 C CNN
 F 1 "4K7/3W" V 7334 2950 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" V 7380 2950 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P25.40mm_Horizontal" V 7380 2950 50  0001 C CNN
 F 3 "~" H 7450 2950 50  0001 C CNN
 	1    7450 2950
 	0    1    1    0   
@@ -751,7 +751,7 @@ U 1 1 5DD9ABC1
 P 6750 2950
 F 0 "R11" V 6543 2950 50  0000 C CNN
 F 1 "220R/2W" V 6634 2950 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" V 6680 2950 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 6680 2950 50  0001 C CNN
 F 3 "~" H 6750 2950 50  0001 C CNN
 	1    6750 2950
 	0    1    1    0   
@@ -860,7 +860,7 @@ U 1 1 5DDE1195
 P 5950 3450
 F 0 "R8" H 5880 3404 50  0000 R CNN
 F 1 "220K" H 5880 3495 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5880 3450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 5880 3450 50  0001 C CNN
 F 3 "~" H 5950 3450 50  0001 C CNN
 	1    5950 3450
 	-1   0    0    1   

@@ -740,7 +740,7 @@ U 1 1 5DD9A56D
 P 7450 2950
 F 0 "R13" V 7243 2950 50  0000 C CNN
 F 1 "4K7/3W" V 7334 2950 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" V 7380 2950 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P25.40mm_Horizontal" V 7380 2950 50  0001 C CNN
 F 3 "~" H 7450 2950 50  0001 C CNN
 	1    7450 2950
 	0    1    1    0   
@@ -751,7 +751,7 @@ U 1 1 5DD9ABC1
 P 6750 2950
 F 0 "R11" V 6543 2950 50  0000 C CNN
 F 1 "220R/2W" V 6634 2950 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" V 6680 2950 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 6680 2950 50  0001 C CNN
 F 3 "~" H 6750 2950 50  0001 C CNN
 	1    6750 2950
 	0    1    1    0   
@@ -860,7 +860,7 @@ U 1 1 5DDE1195
 P 5950 3450
 F 0 "R8" H 5880 3404 50  0000 R CNN
 F 1 "220K" H 5880 3495 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5880 3450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 5880 3450 50  0001 C CNN
 F 3 "~" H 5950 3450 50  0001 C CNN
 	1    5950 3450
 	-1   0    0    1   
@@ -1354,370 +1354,370 @@ $EndComp
 Wire Wire Line
 	9400 6100 9400 5500
 $Comp
-L power:GND #PWR0103
-U 1 1 5DF5D685
-P 12300 7100
-F 0 "#PWR0103" H 12300 6850 50  0001 C CNN
-F 1 "GND" H 12305 6927 50  0000 C CNN
-F 2 "" H 12300 7100 50  0001 C CNN
-F 3 "" H 12300 7100 50  0001 C CNN
-	1    12300 7100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12300 6950 12300 7100
-Wire Wire Line
-	12300 6300 12550 6300
-Wire Wire Line
-	12300 6400 12300 6300
-Wire Wire Line
-	12300 6850 12300 6700
-$Comp
-L Connector:Conn_01x02_Male PRESENCE1
-U 1 1 5DBF4E83
-P 12100 6950
-F 0 "PRESENCE1" H 12208 7131 50  0000 C CNN
-F 1 "PRESENCE" H 12208 7040 50  0000 C CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 12100 6950 50  0001 C CNN
-F 3 "~" H 12100 6950 50  0001 C CNN
-	1    12100 6950
-	1    0    0    1   
-$EndComp
-Text Label 13900 6900 0    50   ~ 0
-EL84-CATHODE
-$Comp
-L Device:C C17
-U 1 1 5DF5CC2A
-P 12300 6550
-F 0 "C17" H 12415 6596 50  0000 L CNN
-F 1 "22n" H 12415 6505 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L10.3mm_W5.0mm_P7.50mm_MKS4" H 12338 6400 50  0001 C CNN
-F 3 "~" H 12300 6550 50  0001 C CNN
-	1    12300 6550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12850 6300 13150 6300
-Wire Wire Line
-	13450 5400 14100 5400
-Wire Wire Line
-	13350 6900 13350 7050
-Wire Wire Line
-	13350 7350 13350 7450
-$Comp
-L power:GND #PWR021
-U 1 1 5DD46E53
-P 13350 7450
-F 0 "#PWR021" H 13350 7200 50  0001 C CNN
-F 1 "GND" H 13355 7277 50  0000 C CNN
-F 2 "" H 13350 7450 50  0001 C CNN
-F 3 "" H 13350 7450 50  0001 C CNN
-	1    13350 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R20
-U 1 1 5DD46E4D
-P 13350 7200
-F 0 "R20" H 13280 7154 50  0000 R CNN
-F 1 "220R" H 13280 7245 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" V 13280 7200 50  0001 C CNN
-F 3 "~" H 13350 7200 50  0001 C CNN
-	1    13350 7200
-	-1   0    0    1   
-$EndComp
-Connection ~ 13350 6900
-$Comp
-L Valve:EL84 U3
-U 1 1 5DD2EAE6
-P 13450 6250
-F 0 "U3" H 13794 6346 50  0000 L CNN
-F 1 "EL84" H 13794 6255 50  0000 L CNN
-F 2 "tubes:NOVAL" H 13750 5850 50  0001 C CNN
-F 3 "http://www.r-type.org/pdfs/el84.pdf" H 13450 6250 50  0001 C CNN
-	1    13450 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R19
-U 1 1 5DD35CCA
-P 12700 6300
-F 0 "R19" V 12493 6300 50  0000 C CNN
-F 1 "10K" V 12584 6300 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 12630 6300 50  0001 C CNN
-F 3 "~" H 12700 6300 50  0001 C CNN
-	1    12700 6300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:CP C16
-U 1 1 5DD46E59
-P 13900 7200
-F 0 "C16" H 14018 7246 50  0000 L CNN
-F 1 "22u" H 14018 7155 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 13938 7050 50  0001 C CNN
-F 3 "~" H 13900 7200 50  0001 C CNN
-	1    13900 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR022
-U 1 1 5DD46E5F
-P 13900 7450
-F 0 "#PWR022" H 13900 7200 50  0001 C CNN
-F 1 "GND" H 13905 7277 50  0000 C CNN
-F 2 "" H 13900 7450 50  0001 C CNN
-F 3 "" H 13900 7450 50  0001 C CNN
-	1    13900 7450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13900 7350 13900 7450
-Wire Wire Line
-	13350 6900 13900 6900
-Wire Wire Line
-	13900 6900 13900 7050
-Wire Wire Line
-	13350 6600 13350 6900
-$Comp
-L Device:R R21
-U 1 1 5DD72E87
-P 14100 6200
-F 0 "R21" V 13893 6200 50  0000 C CNN
-F 1 "1K" V 13984 6200 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 14030 6200 50  0001 C CNN
-F 3 "~" H 14100 6200 50  0001 C CNN
-	1    14100 6200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	13750 6200 13950 6200
-Text Label 14400 6200 0    50   ~ 0
-B2
-Wire Wire Line
-	14250 6200 14400 6200
-Text Label 14000 5400 0    50   ~ 0
-OUT
-Wire Wire Line
-	13450 5800 13450 5400
-$Comp
-L Connector:Conn_01x01_Male OUT1
-U 1 1 5DF620F1
-P 14300 5400
-F 0 "OUT1" H 14272 5332 50  0000 R CNN
-F 1 "OUT" H 14272 5423 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 14300 5400 50  0001 C CNN
-F 3 "~" H 14300 5400 50  0001 C CNN
-	1    14300 5400
-	-1   0    0    1   
-$EndComp
-Connection ~ 12300 6300
-Wire Wire Line
-	11700 6300 12300 6300
-Connection ~ 2400 4500
-Wire Wire Line
-	2400 4600 2400 4500
-$Comp
-L power:GND #PWR0104
-U 1 1 5DBC1B30
-P 2400 4600
-F 0 "#PWR0104" H 2400 4350 50  0001 C CNN
-F 1 "GND" H 2405 4427 50  0000 C CNN
-F 2 "" H 2400 4600 50  0001 C CNN
-F 3 "" H 2400 4600 50  0001 C CNN
-	1    2400 4600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 4000 2400 4400
-Connection ~ 2400 4000
-Wire Wire Line
-	2200 4000 2400 4000
-$Comp
-L Connector:Conn_01x01_Male GND7
-U 1 1 5DFE7BBF
-P 2000 4000
-F 0 "GND7" H 1972 3932 50  0000 R CNN
-F 1 "GND" H 1972 4023 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2000 4000 50  0001 C CNN
-F 3 "~" H 2000 4000 50  0001 C CNN
-	1    2000 4000
-	1    0    0    -1  
-$EndComp
-Connection ~ 2400 4400
-Wire Wire Line
-	2400 3850 2400 4000
-Wire Wire Line
-	2400 3700 2400 3850
-Connection ~ 2400 3700
-Wire Wire Line
-	2400 3700 2200 3700
-Connection ~ 2400 3850
-Connection ~ 2400 3550
-Wire Wire Line
-	2400 3550 2400 3700
-Wire Wire Line
-	2200 3850 2400 3850
-$Comp
-L Connector:Conn_01x01_Male GND6
-U 1 1 5DFABEA5
-P 2000 3850
-F 0 "GND6" H 1972 3782 50  0000 R CNN
-F 1 "GND" H 1972 3873 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2000 3850 50  0001 C CNN
-F 3 "~" H 2000 3850 50  0001 C CNN
-	1    2000 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male GND5
-U 1 1 5DFABC65
-P 2000 3700
-F 0 "GND5" H 1972 3632 50  0000 R CNN
-F 1 "GND" H 1972 3723 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2000 3700 50  0001 C CNN
-F 3 "~" H 2000 3700 50  0001 C CNN
-	1    2000 3700
-	1    0    0    -1  
-$EndComp
-Connection ~ 2400 3400
-Wire Wire Line
-	2400 3250 2400 3400
-Wire Wire Line
-	2200 3250 2400 3250
-$Comp
-L Connector:Conn_01x01_Male GND1
-U 1 1 5DEC641D
-P 2000 3250
-F 0 "GND1" H 1972 3182 50  0000 R CNN
-F 1 "GND" H 1972 3273 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2000 3250 50  0001 C CNN
-F 3 "~" H 2000 3250 50  0001 C CNN
-	1    2000 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2200 4500 2400 4500
-Wire Wire Line
-	2400 4500 2400 4400
-Wire Wire Line
-	2200 4400 2400 4400
-$Comp
-L Connector:Conn_01x02_Male GND4
-U 1 1 5DBE4CE1
-P 2000 4400
-F 0 "GND4" H 2108 4581 50  0000 C CNN
-F 1 "GND" H 2108 4490 50  0000 C CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 2000 4400 50  0001 C CNN
-F 3 "~" H 2000 4400 50  0001 C CNN
-	1    2000 4400
-	1    0    0    -1  
-$EndComp
-Text Label 2400 3400 0    50   ~ 0
-GND
-Wire Wire Line
-	2400 3400 2400 3550
-Wire Wire Line
-	2200 3400 2400 3400
-Wire Wire Line
-	2200 3550 2400 3550
-$Comp
-L Connector:Conn_01x01_Male GND3
-U 1 1 5DB63368
-P 2000 3550
-F 0 "GND3" H 1972 3482 50  0000 R CNN
-F 1 "GND" H 1972 3573 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2000 3550 50  0001 C CNN
-F 3 "~" H 2000 3550 50  0001 C CNN
-	1    2000 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male GND2
-U 1 1 5DB63086
-P 2000 3400
-F 0 "GND2" H 1972 3332 50  0000 R CNN
-F 1 "GND" H 1972 3423 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2000 3400 50  0001 C CNN
-F 3 "~" H 2000 3400 50  0001 C CNN
-	1    2000 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H7
-U 1 1 5DBBA434
-P 14200 3850
-F 0 "H7" H 14300 3896 50  0000 L CNN
-F 1 "MountingHole" H 14300 3805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 14200 3850 50  0001 C CNN
-F 3 "~" H 14200 3850 50  0001 C CNN
-	1    14200 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H6
-U 1 1 5DBBA083
-P 13950 3850
-F 0 "H6" H 14050 3896 50  0000 L CNN
-F 1 "MountingHole" H 14050 3805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 13950 3850 50  0001 C CNN
-F 3 "~" H 13950 3850 50  0001 C CNN
-	1    13950 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H5
-U 1 1 5DBB9EB7
-P 13650 3850
-F 0 "H5" H 13750 3896 50  0000 L CNN
-F 1 "MountingHole" H 13750 3805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 13650 3850 50  0001 C CNN
-F 3 "~" H 13650 3850 50  0001 C CNN
-	1    13650 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 5DBB9A75
-P 13350 3850
-F 0 "H4" H 13450 3896 50  0000 L CNN
-F 1 "MountingHole" H 13450 3805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 13350 3850 50  0001 C CNN
-F 3 "~" H 13350 3850 50  0001 C CNN
-	1    13350 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5DBB978C
-P 13950 3650
-F 0 "H3" H 14050 3696 50  0000 L CNN
-F 1 "MountingHole" H 14050 3605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 13950 3650 50  0001 C CNN
-F 3 "~" H 13950 3650 50  0001 C CNN
-	1    13950 3650
+L Mechanical:MountingHole H1
+U 1 1 5DBB8077
+P 13000 3750
+F 0 "H1" H 13100 3796 50  0000 L CNN
+F 1 "MountingHole" H 13100 3705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 13000 3750 50  0001 C CNN
+F 3 "~" H 13000 3750 50  0001 C CNN
+	1    13000 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5DBB9523
-P 13650 3650
-F 0 "H2" H 13750 3696 50  0000 L CNN
-F 1 "MountingHole" H 13750 3605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 13650 3650 50  0001 C CNN
-F 3 "~" H 13650 3650 50  0001 C CNN
-	1    13650 3650
+P 13300 3750
+F 0 "H2" H 13400 3796 50  0000 L CNN
+F 1 "MountingHole" H 13400 3705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 13300 3750 50  0001 C CNN
+F 3 "~" H 13300 3750 50  0001 C CNN
+	1    13300 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
-U 1 1 5DBB8077
-P 13350 3650
-F 0 "H1" H 13450 3696 50  0000 L CNN
-F 1 "MountingHole" H 13450 3605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 13350 3650 50  0001 C CNN
-F 3 "~" H 13350 3650 50  0001 C CNN
-	1    13350 3650
+L Mechanical:MountingHole H3
+U 1 1 5DBB978C
+P 13600 3750
+F 0 "H3" H 13700 3796 50  0000 L CNN
+F 1 "MountingHole" H 13700 3705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 13600 3750 50  0001 C CNN
+F 3 "~" H 13600 3750 50  0001 C CNN
+	1    13600 3750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5DBB9A75
+P 13000 3950
+F 0 "H4" H 13100 3996 50  0000 L CNN
+F 1 "MountingHole" H 13100 3905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 13000 3950 50  0001 C CNN
+F 3 "~" H 13000 3950 50  0001 C CNN
+	1    13000 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5DBB9EB7
+P 13300 3950
+F 0 "H5" H 13400 3996 50  0000 L CNN
+F 1 "MountingHole" H 13400 3905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 13300 3950 50  0001 C CNN
+F 3 "~" H 13300 3950 50  0001 C CNN
+	1    13300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5DBBA083
+P 13600 3950
+F 0 "H6" H 13700 3996 50  0000 L CNN
+F 1 "MountingHole" H 13700 3905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 13600 3950 50  0001 C CNN
+F 3 "~" H 13600 3950 50  0001 C CNN
+	1    13600 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5DBBA434
+P 13850 3950
+F 0 "H7" H 13950 3996 50  0000 L CNN
+F 1 "MountingHole" H 13950 3905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 13850 3950 50  0001 C CNN
+F 3 "~" H 13850 3950 50  0001 C CNN
+	1    13850 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male GND2
+U 1 1 5DB63086
+P 2250 3400
+F 0 "GND2" H 2222 3332 50  0000 R CNN
+F 1 "GND" H 2222 3423 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2250 3400 50  0001 C CNN
+F 3 "~" H 2250 3400 50  0001 C CNN
+	1    2250 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male GND3
+U 1 1 5DB63368
+P 2250 3550
+F 0 "GND3" H 2222 3482 50  0000 R CNN
+F 1 "GND" H 2222 3573 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2250 3550 50  0001 C CNN
+F 3 "~" H 2250 3550 50  0001 C CNN
+	1    2250 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 3550 2650 3550
+Wire Wire Line
+	2450 3400 2650 3400
+Wire Wire Line
+	2650 3400 2650 3550
+Text Label 2650 3400 0    50   ~ 0
+GND
+$Comp
+L Connector:Conn_01x02_Male GND4
+U 1 1 5DBE4CE1
+P 2250 4400
+F 0 "GND4" H 2358 4581 50  0000 C CNN
+F 1 "GND" H 2358 4490 50  0000 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 2250 4400 50  0001 C CNN
+F 3 "~" H 2250 4400 50  0001 C CNN
+	1    2250 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4400 2650 4400
+Wire Wire Line
+	2650 4500 2650 4400
+Wire Wire Line
+	2450 4500 2650 4500
+$Comp
+L Connector:Conn_01x01_Male GND1
+U 1 1 5DEC641D
+P 2250 3250
+F 0 "GND1" H 2222 3182 50  0000 R CNN
+F 1 "GND" H 2222 3273 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2250 3250 50  0001 C CNN
+F 3 "~" H 2250 3250 50  0001 C CNN
+	1    2250 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 3250 2650 3250
+Wire Wire Line
+	2650 3250 2650 3400
+Connection ~ 2650 3400
+$Comp
+L Connector:Conn_01x01_Male GND5
+U 1 1 5DFABC65
+P 2250 3700
+F 0 "GND5" H 2222 3632 50  0000 R CNN
+F 1 "GND" H 2222 3723 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2250 3700 50  0001 C CNN
+F 3 "~" H 2250 3700 50  0001 C CNN
+	1    2250 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male GND6
+U 1 1 5DFABEA5
+P 2250 3850
+F 0 "GND6" H 2222 3782 50  0000 R CNN
+F 1 "GND" H 2222 3873 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2250 3850 50  0001 C CNN
+F 3 "~" H 2250 3850 50  0001 C CNN
+	1    2250 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 3850 2650 3850
+Wire Wire Line
+	2650 3550 2650 3700
+Connection ~ 2650 3550
+Connection ~ 2650 3850
+Wire Wire Line
+	2650 3700 2450 3700
+Connection ~ 2650 3700
+Wire Wire Line
+	2650 3700 2650 3850
+Wire Wire Line
+	2650 3850 2650 4000
+Connection ~ 2650 4400
+$Comp
+L Connector:Conn_01x01_Male GND7
+U 1 1 5DFE7BBF
+P 2250 4000
+F 0 "GND7" H 2222 3932 50  0000 R CNN
+F 1 "GND" H 2222 4023 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2250 4000 50  0001 C CNN
+F 3 "~" H 2250 4000 50  0001 C CNN
+	1    2250 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4000 2650 4000
+Connection ~ 2650 4000
+Wire Wire Line
+	2650 4000 2650 4400
+$Comp
+L power:GND #PWR0104
+U 1 1 5DBC1B30
+P 2650 4600
+F 0 "#PWR0104" H 2650 4350 50  0001 C CNN
+F 1 "GND" H 2655 4427 50  0000 C CNN
+F 2 "" H 2650 4600 50  0001 C CNN
+F 3 "" H 2650 4600 50  0001 C CNN
+	1    2650 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 4600 2650 4500
+Connection ~ 2650 4500
+$Comp
+L Connector:Conn_01x01_Male OUT1
+U 1 1 5DF620F1
+P 14100 5400
+F 0 "OUT1" H 14072 5332 50  0000 R CNN
+F 1 "OUT" H 14072 5423 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 14100 5400 50  0001 C CNN
+F 3 "~" H 14100 5400 50  0001 C CNN
+	1    14100 5400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13250 5800 13250 5400
+Text Label 13800 5400 0    50   ~ 0
+OUT
+Wire Wire Line
+	14050 6200 14200 6200
+Text Label 14200 6200 0    50   ~ 0
+B2
+Wire Wire Line
+	13550 6200 13750 6200
+$Comp
+L Device:R R21
+U 1 1 5DD72E87
+P 13900 6200
+F 0 "R21" V 13693 6200 50  0000 C CNN
+F 1 "1K" V 13784 6200 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 13830 6200 50  0001 C CNN
+F 3 "~" H 13900 6200 50  0001 C CNN
+	1    13900 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13150 6600 13150 6900
+Wire Wire Line
+	13700 6900 13700 7050
+Wire Wire Line
+	13150 6900 13700 6900
+Wire Wire Line
+	13700 7350 13700 7450
+$Comp
+L power:GND #PWR022
+U 1 1 5DD46E5F
+P 13700 7450
+F 0 "#PWR022" H 13700 7200 50  0001 C CNN
+F 1 "GND" H 13705 7277 50  0000 C CNN
+F 2 "" H 13700 7450 50  0001 C CNN
+F 3 "" H 13700 7450 50  0001 C CNN
+	1    13700 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C16
+U 1 1 5DD46E59
+P 13700 7200
+F 0 "C16" H 13818 7246 50  0000 L CNN
+F 1 "22u" H 13818 7155 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 13738 7050 50  0001 C CNN
+F 3 "~" H 13700 7200 50  0001 C CNN
+	1    13700 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 5DD35CCA
+P 12500 6300
+F 0 "R19" V 12293 6300 50  0000 C CNN
+F 1 "10K" V 12384 6300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 12430 6300 50  0001 C CNN
+F 3 "~" H 12500 6300 50  0001 C CNN
+	1    12500 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Valve:EL84 U3
+U 1 1 5DD2EAE6
+P 13250 6250
+F 0 "U3" H 13594 6346 50  0000 L CNN
+F 1 "EL84" H 13594 6255 50  0000 L CNN
+F 2 "tubes:NOVAL" H 13550 5850 50  0001 C CNN
+F 3 "http://www.r-type.org/pdfs/el84.pdf" H 13250 6250 50  0001 C CNN
+	1    13250 6250
+	1    0    0    -1  
+$EndComp
+Connection ~ 13150 6900
+$Comp
+L Device:R R20
+U 1 1 5DD46E4D
+P 13150 7200
+F 0 "R20" H 13080 7154 50  0000 R CNN
+F 1 "220R" H 13080 7245 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" V 13080 7200 50  0001 C CNN
+F 3 "~" H 13150 7200 50  0001 C CNN
+	1    13150 7200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 5DD46E53
+P 13150 7450
+F 0 "#PWR021" H 13150 7200 50  0001 C CNN
+F 1 "GND" H 13155 7277 50  0000 C CNN
+F 2 "" H 13150 7450 50  0001 C CNN
+F 3 "" H 13150 7450 50  0001 C CNN
+	1    13150 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13150 7350 13150 7450
+Wire Wire Line
+	13150 6900 13150 7050
+Wire Wire Line
+	13250 5400 13900 5400
+Wire Wire Line
+	12650 6300 12950 6300
+$Comp
+L Device:C C17
+U 1 1 5DF5CC2A
+P 12100 6550
+F 0 "C17" H 12215 6596 50  0000 L CNN
+F 1 "22n" H 12215 6505 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L10.3mm_W5.0mm_P7.50mm_MKS4" H 12138 6400 50  0001 C CNN
+F 3 "~" H 12100 6550 50  0001 C CNN
+	1    12100 6550
+	1    0    0    -1  
+$EndComp
+Text Label 13700 6900 0    50   ~ 0
+EL84-CATHODE
+$Comp
+L Connector:Conn_01x02_Male PRESENCE1
+U 1 1 5DBF4E83
+P 11900 6950
+F 0 "PRESENCE1" H 12008 7131 50  0000 C CNN
+F 1 "PRESENCE" H 12008 7040 50  0000 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 11900 6950 50  0001 C CNN
+F 3 "~" H 11900 6950 50  0001 C CNN
+	1    11900 6950
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	12100 6850 12100 6700
+Wire Wire Line
+	12100 6400 12100 6300
+Wire Wire Line
+	12100 6300 12350 6300
+Wire Wire Line
+	12100 6950 12100 7100
+$Comp
+L power:GND #PWR0103
+U 1 1 5DF5D685
+P 12100 7100
+F 0 "#PWR0103" H 12100 6850 50  0001 C CNN
+F 1 "GND" H 12105 6927 50  0000 C CNN
+F 2 "" H 12100 7100 50  0001 C CNN
+F 3 "" H 12100 7100 50  0001 C CNN
+	1    12100 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11700 6300 12100 6300
+Connection ~ 12100 6300
 $EndSCHEMATC
