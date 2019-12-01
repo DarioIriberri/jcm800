@@ -1,4 +1,4 @@
-update=31/10/2019 0:55:39
+update=01/12/2019 23:43:41
 version=1
 last_client=kicad
 [general]
@@ -247,6 +247,17 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
+Name=EL84-CATHODE
+Clearance=0.3
+TrackWidth=1
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
 Name=FIL
 Clearance=1
 TrackWidth=0.75
@@ -257,7 +268,7 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/2]
+[pcbnew/Netclasses/3]
 Name=GND
 Clearance=0.5
 TrackWidth=1
@@ -268,7 +279,7 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/3]
+[pcbnew/Netclasses/4]
 Name=HV_SIGNAL
 Clearance=1.5
 TrackWidth=0.5
@@ -279,7 +290,7 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/4]
+[pcbnew/Netclasses/5]
 Name=OUT
 Clearance=1.5
 TrackWidth=0.75
@@ -290,7 +301,7 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/5]
+[pcbnew/Netclasses/6]
 Name=PWR
 Clearance=1.5
 TrackWidth=1
