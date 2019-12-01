@@ -974,34 +974,14 @@ Wire Wire Line
 Wire Wire Line
 	8850 2950 8850 4750
 Connection ~ 8850 4750
-Wire Wire Line
-	10450 3800 10650 3800
-Wire Wire Line
-	11250 3800 11450 3800
-Wire Wire Line
-	10650 3800 11250 3800
-Connection ~ 10650 3800
 Connection ~ 11250 3800
-Wire Wire Line
-	11450 3800 12100 3800
-Connection ~ 11450 3800
-Wire Wire Line
-	10550 4600 11350 4600
-Connection ~ 11350 4600
-Wire Wire Line
-	11350 4600 12300 4600
 Wire Wire Line
 	9750 3800 10150 3800
 Connection ~ 10450 3800
-Connection ~ 10550 4600
 Wire Wire Line
 	10450 3500 10450 3800
 Wire Wire Line
-	10650 3500 10650 3800
-Wire Wire Line
 	11250 3500 11250 3800
-Wire Wire Line
-	11450 3500 11450 3800
 Wire Wire Line
 	12100 3500 12100 3800
 $Comp
@@ -1038,10 +1018,6 @@ F 3 "~" H 10150 4400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10550 3500 10550 4600
-Wire Wire Line
-	11350 3500 11350 4600
-Wire Wire Line
 	12300 3500 12300 4600
 Wire Wire Line
 	10150 3850 10150 3800
@@ -1051,8 +1027,6 @@ Wire Wire Line
 Wire Wire Line
 	10150 4550 10150 4600
 Connection ~ 10150 4600
-Wire Wire Line
-	10150 4600 10550 4600
 Wire Wire Line
 	10150 4250 10150 4200
 $Comp
@@ -1720,4 +1694,22 @@ $EndComp
 Wire Wire Line
 	11700 6300 12100 6300
 Connection ~ 12100 6300
+Wire Wire Line
+	10150 4600 10650 4600
+Wire Wire Line
+	10450 3800 11250 3800
+Wire Wire Line
+	11250 3800 12100 3800
+Wire Wire Line
+	10650 3500 10650 4600
+Connection ~ 10650 4600
+Wire Wire Line
+	10650 4600 11450 4600
+Wire Wire Line
+	11450 3500 11450 4600
+Connection ~ 11450 4600
+Wire Wire Line
+	11450 4600 12300 4600
+NoConn ~ 11350 3500
+NoConn ~ 10550 3500
 $EndSCHEMATC
