@@ -984,8 +984,6 @@ F 3 "~" H 10450 2700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	13450 1800 13450 2900
-Wire Wire Line
 	10450 2150 10450 2100
 Connection ~ 10450 2100
 Wire Wire Line
@@ -1182,17 +1180,6 @@ Wire Wire Line
 	2200 4800 2300 4800
 Wire Wire Line
 	2300 4800 2300 4850
-$Comp
-L Connector:Conn_01x01_Male B1
-U 1 1 5DB60F2C
-P 7050 900
-F 0 "B1" H 7022 832 50  0000 R CNN
-F 1 "B1" H 7022 923 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7050 900 50  0001 C CNN
-F 3 "~" H 7050 900 50  0001 C CNN
-	1    7050 900 
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	10050 2900 10450 2900
 $Comp
@@ -1234,7 +1221,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 2550 9800 2550
 Wire Wire Line
-	7050 1100 7050 1250
+	7050 1200 7050 1250
 Text Label 7750 3000 0    50   ~ 0
 D
 Wire Wire Line
@@ -1611,21 +1598,9 @@ Wire Wire Line
 Wire Wire Line
 	12400 1800 12400 2100
 Wire Wire Line
-	14100 1800 14100 2100
-Wire Wire Line
-	14300 1800 14300 2900
-Wire Wire Line
 	12400 2100 13250 2100
 Connection ~ 12400 2100
-Wire Wire Line
-	13450 2900 12600 2900
 Connection ~ 12600 2900
-Wire Wire Line
-	13250 2100 14100 2100
-Connection ~ 13250 2100
-Wire Wire Line
-	13450 2900 14300 2900
-Connection ~ 13450 2900
 $Comp
 L Valve:EL84 U5
 U 1 1 5E04B5DC
@@ -2155,4 +2130,28 @@ Wire Wire Line
 Wire Wire Line
 	4950 10200 5150 10200
 NoConn ~ 12500 1800
+Wire Wire Line
+	12600 2900 14300 2900
+Wire Wire Line
+	14300 1800 14300 2900
+Wire Wire Line
+	13450 2100 13800 2100
+Wire Wire Line
+	14100 2100 14100 1800
+Wire Wire Line
+	13450 1800 13450 2100
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5DEB167B
+P 13800 2100
+F 0 "#FLG?" H 13800 2175 50  0001 C CNN
+F 1 "PWR_FLAG" H 13800 2273 50  0000 C CNN
+F 2 "" H 13800 2100 50  0001 C CNN
+F 3 "~" H 13800 2100 50  0001 C CNN
+	1    13800 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 13800 2100
+Wire Wire Line
+	13800 2100 14100 2100
 $EndSCHEMATC

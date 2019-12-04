@@ -984,8 +984,6 @@ F 3 "~" H 10450 2700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	13450 1800 13450 2900
-Wire Wire Line
 	10450 2150 10450 2100
 Connection ~ 10450 2100
 Wire Wire Line
@@ -1206,13 +1204,13 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Male FIL1
 U 1 1 5DC9A7F9
-P 9450 2550
-F 0 "FIL1" H 9558 2731 50  0000 C CNN
-F 1 "FIL" H 9558 2640 50  0000 C CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 9450 2550 50  0001 C CNN
-F 3 "~" H 9450 2550 50  0001 C CNN
-	1    9450 2550
-	1    0    0    1   
+P 9450 2450
+F 0 "FIL1" H 9558 2631 50  0000 C CNN
+F 1 "FIL" H 9558 2540 50  0000 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 9450 2450 50  0001 C CNN
+F 3 "~" H 9450 2450 50  0001 C CNN
+	1    9450 2450
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	10050 2450 10050 2100
@@ -1600,21 +1598,9 @@ Wire Wire Line
 Wire Wire Line
 	12400 1800 12400 2100
 Wire Wire Line
-	14100 1800 14100 2100
-Wire Wire Line
-	14300 1800 14300 2900
-Wire Wire Line
 	12400 2100 13250 2100
 Connection ~ 12400 2100
-Wire Wire Line
-	13450 2900 12600 2900
 Connection ~ 12600 2900
-Wire Wire Line
-	13250 2100 14100 2100
-Connection ~ 13250 2100
-Wire Wire Line
-	13450 2900 14300 2900
-Connection ~ 13450 2900
 $Comp
 L Valve:EL84 U5
 U 1 1 5E04B5DC
@@ -2144,4 +2130,28 @@ Wire Wire Line
 Wire Wire Line
 	4950 10200 5150 10200
 NoConn ~ 12500 1800
+Wire Wire Line
+	12600 2900 14300 2900
+Wire Wire Line
+	14300 1800 14300 2900
+Wire Wire Line
+	13450 2100 13800 2100
+Wire Wire Line
+	14100 2100 14100 1800
+Wire Wire Line
+	13450 1800 13450 2100
+$Comp
+L power:PWR_FLAG #FLG0106
+U 1 1 5DEB167B
+P 13800 2100
+F 0 "#FLG0106" H 13800 2175 50  0001 C CNN
+F 1 "PWR_FLAG" H 13800 2273 50  0000 C CNN
+F 2 "" H 13800 2100 50  0001 C CNN
+F 3 "~" H 13800 2100 50  0001 C CNN
+	1    13800 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 13800 2100
+Wire Wire Line
+	13800 2100 14100 2100
 $EndSCHEMATC
