@@ -5,9 +5,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "JCM800 6W"
+Title "JCM800 15W"
 Date ""
-Rev "0.2"
+Rev "0.1"
 Comp "Dazz"
 Comment1 ""
 Comment2 ""
@@ -718,7 +718,7 @@ U 1 1 5DD9ABC1
 P 6700 1250
 F 0 "R11" V 6493 1250 50  0000 C CNN
 F 1 "2K2-2W" V 6584 1250 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 6630 1250 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 6630 1250 50  0001 C CNN
 F 3 "~" H 6700 1250 50  0001 C CNN
 	1    6700 1250
 	0    1    1    0   
@@ -1314,8 +1314,19 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5DBB9A75
+P 13850 3700
+F 0 "H4" H 13950 3746 50  0000 L CNN
+F 1 "MountingHole" H 13950 3655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 13850 3700 50  0001 C CNN
+F 3 "~" H 13850 3700 50  0001 C CNN
+	1    13850 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5DBB9EB7
 P 12950 3900
-F 0 "H4" H 13050 3946 50  0000 L CNN
+F 0 "H5" H 13050 3946 50  0000 L CNN
 F 1 "MountingHole" H 13050 3855 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 12950 3900 50  0001 C CNN
 F 3 "~" H 12950 3900 50  0001 C CNN
@@ -1323,10 +1334,10 @@ F 3 "~" H 12950 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H5
-U 1 1 5DBB9EB7
+L Mechanical:MountingHole H6
+U 1 1 5DBBA083
 P 13250 3900
-F 0 "H5" H 13350 3946 50  0000 L CNN
+F 0 "H6" H 13350 3946 50  0000 L CNN
 F 1 "MountingHole" H 13350 3855 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 13250 3900 50  0001 C CNN
 F 3 "~" H 13250 3900 50  0001 C CNN
@@ -1334,25 +1345,14 @@ F 3 "~" H 13250 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H6
-U 1 1 5DBBA083
+L Mechanical:MountingHole H7
+U 1 1 5DBBA434
 P 13550 3900
-F 0 "H6" H 13650 3946 50  0000 L CNN
+F 0 "H7" H 13650 3946 50  0000 L CNN
 F 1 "MountingHole" H 13650 3855 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 13550 3900 50  0001 C CNN
 F 3 "~" H 13550 3900 50  0001 C CNN
 	1    13550 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H7
-U 1 1 5DBBA434
-P 13800 3900
-F 0 "H7" H 13900 3946 50  0000 L CNN
-F 1 "MountingHole" H 13900 3855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 13800 3900 50  0001 C CNN
-F 3 "~" H 13800 3900 50  0001 C CNN
-	1    13800 3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1911,7 +1911,7 @@ U 1 1 5E1C5A69
 P 8300 8150
 F 0 "Rbias1" V 8093 8150 50  0000 C CNN
 F 1 "180" V 8184 8150 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8230 8150 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 8230 8150 50  0001 C CNN
 F 3 "~" H 8300 8150 50  0001 C CNN
 	1    8300 8150
 	0    1    1    0   
@@ -2154,4 +2154,48 @@ $EndComp
 Connection ~ 13800 2100
 Wire Wire Line
 	13800 2100 14100 2100
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 5E00F48C
+P 13850 3900
+F 0 "H8" H 13950 3946 50  0000 L CNN
+F 1 "MountingHole" H 13950 3855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 13850 3900 50  0001 C CNN
+F 3 "~" H 13850 3900 50  0001 C CNN
+	1    13850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 5E0BFD3C
+P 14200 3900
+F 0 "H9" H 14300 3946 50  0000 L CNN
+F 1 "MountingHole" H 14300 3855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 14200 3900 50  0001 C CNN
+F 3 "~" H 14200 3900 50  0001 C CNN
+	1    14200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 5E0BFD42
+P 14500 3900
+F 0 "H10" H 14600 3946 50  0000 L CNN
+F 1 "MountingHole" H 14600 3855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 14500 3900 50  0001 C CNN
+F 3 "~" H 14500 3900 50  0001 C CNN
+	1    14500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H11
+U 1 1 5E0BFD48
+P 14800 3900
+F 0 "H11" H 14900 3946 50  0000 L CNN
+F 1 "MountingHole" H 14900 3855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 14800 3900 50  0001 C CNN
+F 3 "~" H 14800 3900 50  0001 C CNN
+	1    14800 3900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
