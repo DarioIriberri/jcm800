@@ -267,8 +267,6 @@ F 3 "~" H 5700 5700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5700 5550 5700 5450
-Wire Wire Line
 	5700 5850 5700 5950
 $Comp
 L Device:R R4
@@ -1116,17 +1114,6 @@ F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 3700 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Valve:ECC83 U1
-U 1 1 5DB3562C
-P 5800 5050
-F 0 "U1" H 6028 5096 50  0000 L CNN
-F 1 "ECC83" H 6028 5005 50  0000 L CNN
-F 2 "tubes:NOVAL" H 6070 4650 50  0001 C CNN
-F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 5800 5050 50  0001 C CNN
-	1    5800 5050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:AudioJack2_Switch IN_LOW_1
 U 1 1 5DBA9657
 P 2000 3950
@@ -1906,17 +1893,6 @@ Wire Wire Line
 Wire Wire Line
 	8600 7450 8600 8150
 $Comp
-L Device:R Rbias1
-U 1 1 5E1C5A69
-P 8300 8150
-F 0 "Rbias1" V 8093 8150 50  0000 C CNN
-F 1 "180" V 8184 8150 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 8230 8150 50  0001 C CNN
-F 3 "~" H 8300 8150 50  0001 C CNN
-	1    8300 8150
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:CP C20
 U 1 1 5E1C61A4
 P 8300 8650
@@ -2087,17 +2063,6 @@ Wire Wire Line
 	3650 10650 3650 10450
 Wire Wire Line
 	3650 10150 3650 9850
-$Comp
-L Device:R R37
-U 1 1 5E3FFE1A
-P 4650 9850
-F 0 "R37" V 4443 9850 50  0000 C CNN
-F 1 "4K7" V 4534 9850 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4580 9850 50  0001 C CNN
-F 3 "~" H 4650 9850 50  0001 C CNN
-	1    4650 9850
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4350 9850 4500 9850
 Connection ~ 4350 9850
@@ -2164,5 +2129,122 @@ F 2 "MountingHole:MountingHole_3.2mm_M3" H 13850 3900 50  0001 C CNN
 F 3 "~" H 13850 3900 50  0001 C CNN
 	1    13850 3900
 	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 5E0BFD3C
+P 14200 3900
+F 0 "H9" H 14300 3946 50  0000 L CNN
+F 1 "MountingHole" H 14300 3855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 14200 3900 50  0001 C CNN
+F 3 "~" H 14200 3900 50  0001 C CNN
+	1    14200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 5E0BFD42
+P 14500 3900
+F 0 "H10" H 14600 3946 50  0000 L CNN
+F 1 "MountingHole" H 14600 3855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 14500 3900 50  0001 C CNN
+F 3 "~" H 14500 3900 50  0001 C CNN
+	1    14500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H11
+U 1 1 5E0BFD48
+P 14800 3900
+F 0 "H11" H 14900 3946 50  0000 L CNN
+F 1 "MountingHole" H 14900 3855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 14800 3900 50  0001 C CNN
+F 3 "~" H 14800 3900 50  0001 C CNN
+	1    14800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C22
+U 1 1 5E201D83
+P 6050 5700
+F 0 "C22" H 6165 5746 50  0000 L CNN
+F 1 "1n" H 6165 5655 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 6088 5550 50  0001 C CNN
+F 3 "~" H 6050 5700 50  0001 C CNN
+	1    6050 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5E24F6B8
+P 6050 5950
+F 0 "#PWR0107" H 6050 5700 50  0001 C CNN
+F 1 "GND" H 6055 5777 50  0000 C CNN
+F 2 "" H 6050 5950 50  0001 C CNN
+F 3 "" H 6050 5950 50  0001 C CNN
+	1    6050 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 5950 6050 5850
+Wire Wire Line
+	5700 5450 5700 5550
+Wire Wire Line
+	5950 5550 5700 5550
+Connection ~ 5700 5550
+$Comp
+L Connector:Conn_01x02_Male BOOST1
+U 1 1 5E2A422F
+P 5950 5350
+F 0 "BOOST1" V 6000 5100 50  0000 C CNN
+F 1 "BOOST" V 6100 5100 50  0000 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 5950 5350 50  0001 C CNN
+F 3 "~" H 5950 5350 50  0001 C CNN
+	1    5950 5350
+	0    -1   1    0   
+$EndComp
+$Comp
+L Valve:ECC83 U1
+U 1 1 5DB3562C
+P 5800 5050
+F 0 "U1" H 6028 5096 50  0000 L CNN
+F 1 "ECC83" H 6028 5005 50  0000 L CNN
+F 2 "tubes:NOVAL" H 6070 4650 50  0001 C CNN
+F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 5800 5050 50  0001 C CNN
+	1    5800 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R Rbias1
+U 1 1 5E1C5A69
+P 8300 8150
+F 0 "Rbias1" V 8093 8150 50  0000 C CNN
+F 1 "180R-2W" V 8184 8150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 8230 8150 50  0001 C CNN
+F 3 "~" H 8300 8150 50  0001 C CNN
+	1    8300 8150
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male NFB1
+U 1 1 5E38BCC9
+P 5900 10200
+F 0 "NFB1" H 5872 10132 50  0000 R CNN
+F 1 "4ohm" H 5872 10223 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5900 10200 50  0001 C CNN
+F 3 "~" H 5900 10200 50  0001 C CNN
+	1    5900 10200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R37
+U 1 1 5E3FFE1A
+P 4650 9850
+F 0 "R37" V 4443 9850 50  0000 C CNN
+F 1 "47K" V 4534 9850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4580 9850 50  0001 C CNN
+F 3 "~" H 4650 9850 50  0001 C CNN
+	1    4650 9850
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
