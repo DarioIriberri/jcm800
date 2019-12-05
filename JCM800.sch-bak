@@ -1643,10 +1643,10 @@ F 3 "http://www.r-type.org/pdfs/el84.pdf" H 13450 6250 50  0001 C CNN
 $EndComp
 Connection ~ 13350 6900
 $Comp
-L Device:R R20
+L Device:R Rbias1
 U 1 1 5DD46E4D
 P 13350 7200
-F 0 "R20" H 13280 7154 50  0000 R CNN
+F 0 "Rbias1" H 13280 7154 50  0000 R CNN
 F 1 "220R" H 13280 7245 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 13280 7200 50  0001 C CNN
 F 3 "~" H 13350 7200 50  0001 C CNN

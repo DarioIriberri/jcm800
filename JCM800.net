@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Dario\Documents\KiCad\Projects\JCM800\JCM800.sch)
-    (date "04/12/2019 21:34:39")
+    (date "05/12/2019 21:25:56")
     (tool "Eeschema (5.1.4)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -507,7 +507,7 @@
       (tstamp 5DD72E87))
     (comp (ref C16)
       (value 22u)
-      (footprint Capacitor_THT:CP_Radial_D5.0mm_P2.50mm)
+      (footprint Capacitor_THT:CP_Radial_D8.0mm_P3.50mm)
       (datasheet ~)
       (libsource (lib Device) (part CP) (description "Polarized capacitor"))
       (sheetpath (names /) (tstamps /))
