@@ -2365,4 +2365,6 @@ Wire Wire Line
 NoConn ~ 5150 10200
 Wire Wire Line
 	4950 10350 5300 10350
+Text Label 8600 8400 0    50   ~ 0
+K
 $EndSCHEMATC
