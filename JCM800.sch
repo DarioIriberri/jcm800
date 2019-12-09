@@ -5,7 +5,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "JCM800 12W"
+Title "JCM800 15W"
 Date ""
 Rev "0.1"
 Comp "Dazz"
@@ -668,8 +668,6 @@ Wire Wire Line
 	8300 1250 8800 1250
 Text Label 7750 1200 0    50   ~ 0
 C
-Wire Wire Line
-	7750 1200 7750 1250
 Text Label 7050 1200 0    50   ~ 0
 B
 $Comp
@@ -968,8 +966,6 @@ Wire Wire Line
 	9650 2450 9800 2450
 Wire Wire Line
 	10050 2550 10050 2900
-Wire Wire Line
-	7050 1200 7050 1250
 Text Label 7750 3000 0    50   ~ 0
 D
 Wire Wire Line
@@ -2115,15 +2111,15 @@ F 3 "" H 1350 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male A1
+L Connector:Conn_01x02_Male AB1
 U 1 1 5DF591EA
-P 5900 900
-F 0 "A1" H 6008 1081 50  0000 C CNN
-F 1 "A" H 6008 990 50  0000 C CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 5900 900 50  0001 C CNN
-F 3 "~" H 5900 900 50  0001 C CNN
-	1    5900 900 
-	0    1    1    0   
+P 5900 1000
+F 0 "AB1" H 6008 1181 50  0000 C CNN
+F 1 "AB" H 6008 1090 50  0000 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 5900 1000 50  0001 C CNN
+F 3 "~" H 5900 1000 50  0001 C CNN
+	1    5900 1000
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R38
@@ -2146,8 +2142,7 @@ Wire Wire Line
 Text Label 5450 10100 0    50   ~ 0
 4ohm
 Wire Wire Line
-	5900 1100 5900 1250
-NoConn ~ 5800 1100
+	5900 1200 5900 1250
 $Comp
 L Connector:Conn_01x02_Male NFB2
 U 1 1 5E09035E
@@ -2220,8 +2215,6 @@ Wire Wire Line
 	8600 7450 8600 8400
 Wire Wire Line
 	8250 8400 8250 8550
-Wire Wire Line
-	8600 8400 8450 8400
 Connection ~ 8600 8400
 Wire Wire Line
 	8600 8400 8600 9400
@@ -2326,10 +2319,10 @@ Wire Wire Line
 Wire Wire Line
 	14200 7700 14200 8150
 $Comp
-L Device:R_POT BIAS2
+L Device:R_POT BIAS_U5
 U 1 1 5E11ADDC
 P 14200 8300
-F 0 "BIAS2" H 14130 8254 50  0000 R CNN
+F 0 "BIAS_U5" H 14130 8254 50  0000 R CNN
 F 1 "B1M" H 14130 8345 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 14200 8300 50  0001 C CNN
 F 3 "~" H 14200 8300 50  0001 C CNN
@@ -2343,10 +2336,10 @@ Wire Wire Line
 Wire Wire Line
 	13300 8150 13300 7700
 $Comp
-L Device:R_POT BIAS1
+L Device:R_POT BIAS_U4
 U 1 1 5E0F1978
 P 13300 8300
-F 0 "BIAS1" H 13230 8254 50  0000 R CNN
+F 0 "BIAS_U4" H 13230 8254 50  0000 R CNN
 F 1 "B1M" H 13230 8345 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 13300 8300 50  0001 C CNN
 F 3 "~" H 13300 8300 50  0001 C CNN
@@ -2454,23 +2447,9 @@ F 3 "~" H 2400 1700 50  0001 C CNN
 	1    2400 1700
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:PWR_FLAG #FLG0103
-U 1 1 5E3E542C
-P 8450 8400
-F 0 "#FLG0103" H 8450 8475 50  0001 C CNN
-F 1 "PWR_FLAG" H 8450 8573 50  0000 C CNN
-F 2 "" H 8450 8400 50  0001 C CNN
-F 3 "~" H 8450 8400 50  0001 C CNN
-	1    8450 8400
-	-1   0    0    1   
-$EndComp
 Connection ~ 2400 1700
 Wire Wire Line
 	10800 5550 10800 5750
-Connection ~ 8450 8400
-Wire Wire Line
-	8450 8400 8250 8400
 Wire Wire Line
 	7750 1900 7750 2150
 $Comp
@@ -2494,4 +2473,61 @@ Wire Wire Line
 	4000 9100 4000 9900
 Wire Wire Line
 	4000 8400 4000 9100
+Wire Wire Line
+	7050 1200 7050 1250
+Wire Wire Line
+	7750 1200 7750 1250
+$Comp
+L Connector:Conn_01x01_Male TE1
+U 1 1 5DFCFD9D
+P 5800 2800
+F 0 "TE1" H 5772 2732 50  0000 R CNN
+F 1 "E" H 5772 2823 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5800 2800 50  0001 C CNN
+F 3 "~" H 5800 2800 50  0001 C CNN
+	1    5800 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male TD1
+U 1 1 5DFD05BB
+P 7750 2800
+F 0 "TD1" H 7722 2732 50  0000 R CNN
+F 1 "D" H 7722 2823 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7750 2800 50  0001 C CNN
+F 3 "~" H 7750 2800 50  0001 C CNN
+	1    7750 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male TC1
+U 1 1 5DFCF8A3
+P 7750 1000
+F 0 "TC1" H 7722 932 50  0000 R CNN
+F 1 "C" H 7722 1023 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7750 1000 50  0001 C CNN
+F 3 "~" H 7750 1000 50  0001 C CNN
+	1    7750 1000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 1200 6050 1200
+Text Label 6050 1200 0    50   ~ 0
+B
+Wire Wire Line
+	8450 8400 8250 8400
+Wire Wire Line
+	8600 8400 8450 8400
+Connection ~ 8450 8400
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5E3E542C
+P 8450 8400
+F 0 "#FLG0103" H 8450 8475 50  0001 C CNN
+F 1 "PWR_FLAG" H 8450 8573 50  0000 C CNN
+F 2 "" H 8450 8400 50  0001 C CNN
+F 3 "~" H 8450 8400 50  0001 C CNN
+	1    8450 8400
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
