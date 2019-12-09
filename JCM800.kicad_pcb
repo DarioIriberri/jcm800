@@ -379,10 +379,10 @@
       (net 31 /D))
     (pad 2 thru_hole oval (at 10.16 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 30 /E))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R103.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -420,10 +420,10 @@
       (net 6 GND))
     (pad 2 thru_hole oval (at 15.24 0 90) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 29 /A))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R224.wrl"
+      (offset (xyz 7.5 0 0))
+      (scale (xyz 2 2 2))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -3051,10 +3051,10 @@
       (net 53 GNDS))
     (pad 2 thru_hole oval (at 10.16 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 24 "Net-(IN_HIGH_1-PadT)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R105.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -3092,9 +3092,9 @@
       (net 20 "Net-(R2-Pad1)"))
     (pad 2 thru_hole oval (at 10.16 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 24 "Net-(IN_HIGH_1-PadT)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R683.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3133,10 +3133,10 @@
       (net 53 GNDS))
     (pad 2 thru_hole oval (at 10.16 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 5 "Net-(C2-Pad2)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R272.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -3174,10 +3174,10 @@
       (net 4 "Net-(C1-Pad1)"))
     (pad 2 thru_hole oval (at 10.16 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 30 /E))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R104.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -3215,9 +3215,9 @@
       (net 7 "Net-(C4-Pad1)"))
     (pad 1 thru_hole circle (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 8 "Net-(C4-Pad2)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R474.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3256,9 +3256,9 @@
       (net 53 GNDS))
     (pad 2 thru_hole oval (at 10.16 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 51 "Net-(BOOST1-Pad1)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R103.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3297,10 +3297,10 @@
       (net 11 "Net-(C6-Pad2)"))
     (pad 2 thru_hole oval (at 10.16 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 30 /E))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R104.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -3338,9 +3338,9 @@
       (net 10 "Net-(C11-Pad1)"))
     (pad 1 thru_hole circle (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 12 "Net-(C11-Pad2)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R474.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3379,9 +3379,9 @@
       (net 12 "Net-(C11-Pad2)"))
     (pad 1 thru_hole circle (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 53 GNDS))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R474.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3420,9 +3420,9 @@
       (net 53 GNDS))
     (pad 2 thru_hole oval (at 10.16 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 21 "Net-(R14-Pad2)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R821.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3461,10 +3461,10 @@
       (net 22 "Net-(R15-Pad1)"))
     (pad 2 thru_hole oval (at 10.16 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 31 /D))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R105.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -3502,10 +3502,10 @@
       (net 31 /D))
     (pad 2 thru_hole oval (at 10.16 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 32 /C))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R103.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -3543,9 +3543,9 @@
       (net 27 "Net-(R17-Pad2)"))
     (pad 1 thru_hole circle (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 53 GNDS))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R104.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3584,10 +3584,10 @@
       (net 15 "Net-(C14-Pad2)"))
     (pad 1 thru_hole circle (at 0 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 13 "Net-(C13-Pad1)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R333.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -3943,9 +3943,9 @@
       (net 22 "Net-(R15-Pad1)"))
     (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 26 "Net-(R24-Pad1)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R100.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3984,9 +3984,9 @@
       (net 15 "Net-(C14-Pad2)"))
     (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 27 "Net-(R17-Pad2)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R101.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
       (rotate (xyz 0 0 0))
     )
   )
@@ -4628,10 +4628,10 @@
       (net 19 "Net-(LEVEL1-Pad3)"))
     (pad 2 thru_hole oval (at 10.16 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 44 "Net-(R19-Pad2)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R000.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -4669,9 +4669,9 @@
       (net 45 "Net-(R20-Pad2)"))
     (pad 1 thru_hole circle (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 35 /NFB))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R103.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
       (rotate (xyz 0 0 0))
     )
   )
@@ -4710,9 +4710,9 @@
       (net 45 "Net-(R20-Pad2)"))
     (pad 2 thru_hole oval (at 10.16 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 23 "Net-(R21-Pad2)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R471.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
       (rotate (xyz 0 0 0))
     )
   )
@@ -4751,9 +4751,9 @@
       (net 45 "Net-(R20-Pad2)"))
     (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 33 "Net-(C16-Pad1)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R105.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
       (rotate (xyz 0 0 0))
     )
   )
@@ -4792,10 +4792,10 @@
       (net 45 "Net-(R20-Pad2)"))
     (pad 2 thru_hole oval (at 10.16 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 25 "Net-(C17-Pad1)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R105.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -4833,9 +4833,9 @@
       (net 32 /C))
     (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 37 "Net-(C18-Pad2)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R104.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
       (rotate (xyz 0 0 0))
     )
   )
@@ -4874,10 +4874,10 @@
       (net 38 "Net-(C19-Pad2)"))
     (pad 1 thru_hole circle (at 0 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 32 /C))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R104.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -4915,10 +4915,10 @@
       (net 36 "Net-(C18-Pad1)"))
     (pad 2 thru_hole oval (at 10.16 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 56 /BIAS1))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R474.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -4956,9 +4956,9 @@
       (net 57 /BIAS2))
     (pad 2 thru_hole oval (at 10.16 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 39 "Net-(C19-Pad1)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R474.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
       (rotate (xyz 0 0 0))
     )
   )
@@ -4997,10 +4997,10 @@
       (net 36 "Net-(C18-Pad1)"))
     (pad 1 thru_hole circle (at 0 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 46 "Net-(R32-Pad1)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R822.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -5038,9 +5038,9 @@
       (net 39 "Net-(C19-Pad1)"))
     (pad 1 thru_hole circle (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 47 "Net-(R33-Pad1)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R822.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
       (rotate (xyz 0 0 0))
     )
   )
@@ -5079,10 +5079,10 @@
       (net 54 "Net-(R34-Pad2)"))
     (pad 1 thru_hole circle (at 0 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 48 "Net-(R34-Pad1)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R101.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -5120,9 +5120,9 @@
       (net 54 "Net-(R34-Pad2)"))
     (pad 2 thru_hole oval (at 10.16 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 49 "Net-(R35-Pad2)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R101.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
       (rotate (xyz 0 0 0))
     )
   )
@@ -5161,9 +5161,9 @@
       (net 53 GNDS))
     (pad 1 thru_hole circle (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 35 /NFB))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R472.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
       (rotate (xyz 0 0 0))
     )
   )
@@ -5202,10 +5202,10 @@
       (net 55 "Net-(NFB1-Pad2)"))
     (pad 2 thru_hole oval (at 10.16 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 35 /NFB))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R473.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -5521,10 +5521,10 @@
       (net 28 /B))
     (pad 1 thru_hole circle (at 0 0 180) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 32 /C))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R822.wrl"
+      (offset (xyz 7.5 0 0))
+      (scale (xyz 2 2 2))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -6082,10 +6082,10 @@
       (net 28 /B))
     (pad 2 thru_hole oval (at 15.24 0 180) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 54 "Net-(R34-Pad2)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R102.wrl"
+      (offset (xyz 7.5 0 0))
+      (scale (xyz 2 2 2))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -6859,9 +6859,9 @@
       (net 58 "Net-(C23-Pad2)"))
     (pad 2 thru_hole oval (at 10.16 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 61 "Net-(BIAS_U4-Pad1)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R473.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6900,10 +6900,10 @@
       (net 61 "Net-(BIAS_U4-Pad1)"))
     (pad 2 thru_hole oval (at 10.16 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 56 /BIAS1))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R473.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -6941,9 +6941,9 @@
       (net 57 /BIAS2))
     (pad 1 thru_hole circle (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 61 "Net-(BIAS_U4-Pad1)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R473.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6982,10 +6982,10 @@
       (net 60 "Net-(BIAS_U4-Pad3)"))
     (pad 2 thru_hole oval (at 10.16 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 53 GNDS))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "C:/Users/Dario/Documents/KiCad/Libraries/3D/Metal Film Resistors/Film_Metal_5TOL_4B_025W/R473.wrl"
+      (offset (xyz 5 0 0))
+      (scale (xyz 1.2 1.2 1.2))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -7641,14 +7641,6 @@
   (segment (start 207.01 121.412) (end 203.117172 117.519172) (width 0.5) (layer F.Cu) (net 55))
   (segment (start 203.117172 117.519172) (end 200.996828 117.519172) (width 0.5) (layer F.Cu) (net 55))
   (segment (start 200.996828 117.519172) (end 198.12 120.396) (width 0.5) (layer F.Cu) (net 55))
-  (segment (start 192.492 63.46) (end 193.04 64.008) (width 0.5) (layer F.Cu) (net 61) (status 30))
-  (segment (start 192.492 57.404) (end 192.492 63.46) (width 0.5) (layer F.Cu) (net 61) (status 30))
-  (segment (start 193.291999 56.604001) (end 192.492 57.404) (width 0.5) (layer F.Cu) (net 61) (status 20))
-  (segment (start 196.201001 53.694999) (end 193.291999 56.604001) (width 0.5) (layer F.Cu) (net 61))
-  (segment (start 206.729999 53.694999) (end 196.201001 53.694999) (width 0.5) (layer F.Cu) (net 61))
-  (segment (start 208.28 55.245) (end 206.729999 53.694999) (width 0.5) (layer F.Cu) (net 61) (status 10))
-  (segment (start 194.437 65.405) (end 198.12 65.405) (width 0.5) (layer F.Cu) (net 61) (status 20))
-  (segment (start 193.04 64.008) (end 194.437 65.405) (width 0.5) (layer F.Cu) (net 61) (status 10))
   (segment (start 198.12 55.99537) (end 198.12 54.864) (width 0.5) (layer F.Cu) (net 56) (status 30))
   (segment (start 200.54463 58.42) (end 198.12 55.99537) (width 0.5) (layer F.Cu) (net 56) (status 20))
   (segment (start 213.092137 58.66237) (end 200.54463 58.66237) (width 0.5) (layer F.Cu) (net 56))
@@ -7727,6 +7719,14 @@
   (segment (start 205.75163 61.71037) (end 206.248 61.214) (width 0.5) (layer F.Cu) (net 60))
   (segment (start 219.707767 61.214) (end 214.122 61.214) (width 0.5) (layer B.Cu) (net 60) (status 20))
   (segment (start 220.98 61.214) (end 219.707767 61.214) (width 0.5) (layer B.Cu) (net 60) (status 10))
+  (segment (start 192.492 63.46) (end 193.04 64.008) (width 0.5) (layer F.Cu) (net 61) (status 30))
+  (segment (start 192.492 57.404) (end 192.492 63.46) (width 0.5) (layer F.Cu) (net 61) (status 30))
+  (segment (start 193.291999 56.604001) (end 192.492 57.404) (width 0.5) (layer F.Cu) (net 61) (status 20))
+  (segment (start 196.201001 53.694999) (end 193.291999 56.604001) (width 0.5) (layer F.Cu) (net 61))
+  (segment (start 206.729999 53.694999) (end 196.201001 53.694999) (width 0.5) (layer F.Cu) (net 61))
+  (segment (start 208.28 55.245) (end 206.729999 53.694999) (width 0.5) (layer F.Cu) (net 61) (status 10))
+  (segment (start 194.437 65.405) (end 198.12 65.405) (width 0.5) (layer F.Cu) (net 61) (status 20))
+  (segment (start 193.04 64.008) (end 194.437 65.405) (width 0.5) (layer F.Cu) (net 61) (status 10))
   (segment (start 212.852 55.245) (end 208.28 55.245) (width 0.5) (layer B.Cu) (net 61) (status 20))
   (segment (start 214.122 56.134) (end 213.402001 55.414001) (width 0.5) (layer B.Cu) (net 61) (status 10))
   (segment (start 213.402001 55.414001) (end 212.852 55.245) (width 0.5) (layer B.Cu) (net 61))
