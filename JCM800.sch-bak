@@ -488,17 +488,6 @@ F 3 "~" H 10800 4150 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_POT BASS1
-U 1 1 5DCEB309
-P 10800 4850
-F 0 "BASS1" H 10730 4804 50  0000 R CNN
-F 1 "A1M" H 10730 4895 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal" H 10800 4850 50  0001 C CNN
-F 3 "~" H 10800 4850 50  0001 C CNN
-	1    10800 4850
-	1    0    0    1   
-$EndComp
-$Comp
 L Device:R_POT MID1
 U 1 1 5DCEBD9E
 P 10800 5400
@@ -510,16 +499,10 @@ F 3 "~" H 10800 5400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	11050 4550 11050 4850
-Wire Wire Line
-	11050 4850 10950 4850
-Wire Wire Line
 	10800 4300 10800 4550
 Connection ~ 10800 4550
 Wire Wire Line
 	10800 4550 11050 4550
-Wire Wire Line
-	10800 5000 10800 5250
 Wire Wire Line
 	10650 5400 9900 5400
 Wire Wire Line
@@ -817,7 +800,6 @@ Wire Wire Line
 	10450 2100 10750 2100
 Wire Wire Line
 	10450 2900 10450 2950
-NoConn ~ 10800 4700
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5DB536D9
@@ -2371,7 +2353,7 @@ F 1 "47K" H 13970 7955 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 13830 8000 50  0001 C CNN
 F 3 "~" H 13900 8000 50  0001 C CNN
 	1    13900 8000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R40
@@ -2382,7 +2364,7 @@ F 1 "47K" H 13070 7955 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 12930 8000 50  0001 C CNN
 F 3 "~" H 13000 8000 50  0001 C CNN
 	1    13000 8000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Text Label 7400 8150 0    50   ~ 0
 BIAS1
@@ -2529,5 +2511,23 @@ F 2 "" H 8450 8400 50  0001 C CNN
 F 3 "~" H 8450 8400 50  0001 C CNN
 	1    8450 8400
 	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11050 4550 11050 4850
+NoConn ~ 10800 4700
+Wire Wire Line
+	11050 4850 10950 4850
+Wire Wire Line
+	10800 5000 10800 5250
+$Comp
+L Device:R_POT BASS1
+U 1 1 5DCEB309
+P 10800 4850
+F 0 "BASS1" H 10730 4804 50  0000 R CNN
+F 1 "A1M" H 10730 4895 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal" H 10800 4850 50  0001 C CNN
+F 3 "~" H 10800 4850 50  0001 C CNN
+	1    10800 4850
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC

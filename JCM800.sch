@@ -2285,7 +2285,7 @@ F 1 "47K" H 13820 8855 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 13680 8900 50  0001 C CNN
 F 3 "~" H 13750 8900 50  0001 C CNN
 	1    13750 8900
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	14200 8600 14200 8450
@@ -2344,28 +2344,6 @@ Connection ~ 13000 7700
 Connection ~ 12450 7700
 Wire Wire Line
 	12450 7700 13000 7700
-$Comp
-L Device:R R41
-U 1 1 5E0B73F7
-P 13900 8000
-F 0 "R41" H 13970 8046 50  0000 L CNN
-F 1 "47K" H 13970 7955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 13830 8000 50  0001 C CNN
-F 3 "~" H 13900 8000 50  0001 C CNN
-	1    13900 8000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R40
-U 1 1 5E0B6F27
-P 13000 8000
-F 0 "R40" H 13070 8046 50  0000 L CNN
-F 1 "47K" H 13070 7955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 12930 8000 50  0001 C CNN
-F 3 "~" H 13000 8000 50  0001 C CNN
-	1    13000 8000
-	1    0    0    -1  
-$EndComp
 Text Label 7400 8150 0    50   ~ 0
 BIAS1
 Text Label 7400 8600 0    50   ~ 0
@@ -2529,5 +2507,27 @@ F 2 "Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal" H 10800 4850
 F 3 "~" H 10800 4850 50  0001 C CNN
 	1    10800 4850
 	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R41
+U 1 1 5E0B73F7
+P 13900 8000
+F 0 "R41" H 13970 8046 50  0000 L CNN
+F 1 "47K" H 13970 7955 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 13830 8000 50  0001 C CNN
+F 3 "~" H 13900 8000 50  0001 C CNN
+	1    13900 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R40
+U 1 1 5E0B6F27
+P 13000 8000
+F 0 "R40" H 13070 8046 50  0000 L CNN
+F 1 "47K" H 13070 7955 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 12930 8000 50  0001 C CNN
+F 3 "~" H 13000 8000 50  0001 C CNN
+	1    13000 8000
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
