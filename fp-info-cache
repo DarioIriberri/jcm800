@@ -1,4 +1,4 @@
-17038048813678942
+17039624834306016
 Audio Jacks
 6.35MM_STEREO_SWITCHED_JACK
 
@@ -76159,6 +76159,13 @@ Potentiometer horizontal Piher T-16H Single
 0
 3
 3
+resistor_metal_film
+R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
+0
+2
+2
 toad-logo
 toad
 
