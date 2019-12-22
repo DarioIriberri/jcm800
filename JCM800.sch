@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "JCM800 15W"
 Date ""
-Rev "0.1"
+Rev "0.2"
 Comp "Dazz"
 Comment1 ""
 Comment2 ""

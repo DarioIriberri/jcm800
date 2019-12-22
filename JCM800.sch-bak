@@ -2093,17 +2093,6 @@ F 3 "" H 1350 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male AB1
-U 1 1 5DF591EA
-P 5900 1000
-F 0 "AB1" H 6008 1181 50  0000 C CNN
-F 1 "AB" H 6008 1090 50  0000 C CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 5900 1000 50  0001 C CNN
-F 3 "~" H 5900 1000 50  0001 C CNN
-	1    5900 1000
-	0    -1   1    0   
-$EndComp
-$Comp
 L Device:R R38
 U 1 1 5DFACF30
 P 9800 8400
@@ -2472,8 +2461,6 @@ F 3 "~" H 7750 1000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6000 1200 6050 1200
-Text Label 6050 1200 0    50   ~ 0
-SCREEN
 Wire Wire Line
 	8450 8400 8250 8400
 Wire Wire Line
@@ -2530,6 +2517,17 @@ F 3 "~" H 13000 8000 50  0001 C CNN
 	1    13000 8000
 	-1   0    0    1   
 $EndComp
-Text Label 9500 8400 2    50   ~ 0
-SCREEN
+Text Label 6050 1200 0    50   ~ 0
+B
+$Comp
+L Connector:Conn_01x02_Male AB1
+U 1 1 5DF591EA
+P 5900 1000
+F 0 "AB1" H 6008 1181 50  0000 C CNN
+F 1 "AB" H 6008 1090 50  0000 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 5900 1000 50  0001 C CNN
+F 3 "~" H 5900 1000 50  0001 C CNN
+	1    5900 1000
+	0    -1   1    0   
+$EndComp
 $EndSCHEMATC
