@@ -5,9 +5,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "JCM800 6W"
+Title "JCM800 5W"
 Date ""
-Rev "0.2"
+Rev "0.3"
 Comp "Dazz"
 Comment1 ""
 Comment2 ""
@@ -1672,52 +1672,8 @@ Wire Wire Line
 	13450 5400 14100 5400
 Wire Wire Line
 	12850 6300 13150 6300
-$Comp
-L Device:C C17
-U 1 1 5DF5CC2A
-P 12300 6550
-F 0 "C17" H 12415 6596 50  0000 L CNN
-F 1 "22n" H 12415 6505 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L10.3mm_W5.0mm_P7.50mm_MKS4" H 12338 6400 50  0001 C CNN
-F 3 "~" H 12300 6550 50  0001 C CNN
-	1    12300 6550
-	1    0    0    -1  
-$EndComp
 Text Label 13900 6900 0    50   ~ 0
 EL84-CATHODE
-$Comp
-L Connector:Conn_01x02_Male PRESENCE1
-U 1 1 5DBF4E83
-P 12100 6950
-F 0 "PRESENCE1" H 12208 7131 50  0000 C CNN
-F 1 "PRESENCE" H 12208 7040 50  0000 C CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 12100 6950 50  0001 C CNN
-F 3 "~" H 12100 6950 50  0001 C CNN
-	1    12100 6950
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	12300 6850 12300 6700
-Wire Wire Line
-	12300 6400 12300 6300
-Wire Wire Line
-	12300 6300 12550 6300
-Wire Wire Line
-	12300 6950 12300 7100
-$Comp
-L power:GND #PWR0103
-U 1 1 5DF5D685
-P 12300 7100
-F 0 "#PWR0103" H 12300 6850 50  0001 C CNN
-F 1 "GND" H 12305 6927 50  0000 C CNN
-F 2 "" H 12300 7100 50  0001 C CNN
-F 3 "" H 12300 7100 50  0001 C CNN
-	1    12300 7100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11900 6300 12300 6300
-Connection ~ 12300 6300
 $Comp
 L Device:R R26
 U 1 1 5DE9B6B1
@@ -1733,4 +1689,6 @@ Wire Wire Line
 	11500 5850 11750 5850
 Wire Wire Line
 	11200 5850 11000 5850
+Wire Wire Line
+	11900 6300 12550 6300
 $EndSCHEMATC

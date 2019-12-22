@@ -5,9 +5,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "JCM800 6W"
+Title "JCM800 5W"
 Date ""
-Rev "0.2"
+Rev "0.3"
 Comp "Dazz"
 Comment1 ""
 Comment2 ""
@@ -1733,37 +1733,4 @@ Wire Wire Line
 	11500 5850 11750 5850
 Wire Wire Line
 	11200 5850 11000 5850
-$Comp
-L Device:R R111
-U 1 1 5DF0E5AB
-P 5550 4250
-F 0 "R111" H 5620 4296 50  0000 L CNN
-F 1 "R" H 5620 4205 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5480 4250 50  0001 C CNN
-F 3 "~" H 5550 4250 50  0001 C CNN
-	1    5550 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DF0E964
-P 5550 4400
-F 0 "#PWR?" H 5550 4150 50  0001 C CNN
-F 1 "GND" H 5555 4227 50  0000 C CNN
-F 2 "" H 5550 4400 50  0001 C CNN
-F 3 "" H 5550 4400 50  0001 C CNN
-	1    5550 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DF0FA94
-P 5550 4100
-F 0 "#PWR?" H 5550 3850 50  0001 C CNN
-F 1 "GND" H 5555 3927 50  0000 C CNN
-F 2 "" H 5550 4100 50  0001 C CNN
-F 3 "" H 5550 4100 50  0001 C CNN
-	1    5550 4100
-	-1   0    0    1   
-$EndComp
 $EndSCHEMATC
