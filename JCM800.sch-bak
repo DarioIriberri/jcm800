@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "JCM800 15W"
 Date ""
-Rev "0.1"
+Rev "0.2"
 Comp "Dazz"
 Comment1 ""
 Comment2 ""
@@ -915,13 +915,13 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Male AC1
 U 1 1 5DC75B04
-P 3550 1750
-F 0 "AC1" H 3658 1931 50  0000 C CNN
-F 1 "AC_IN" H 3658 1840 50  0000 C CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 3550 1750 50  0001 C CNN
-F 3 "~" H 3550 1750 50  0001 C CNN
-	1    3550 1750
-	1    0    0    1   
+P 3550 1650
+F 0 "AC1" H 3658 1831 50  0000 C CNN
+F 1 "AC_IN" H 3658 1740 50  0000 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 3550 1650 50  0001 C CNN
+F 3 "~" H 3550 1650 50  0001 C CNN
+	1    3550 1650
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3750 1650 3950 1650
@@ -934,13 +934,13 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Male FIL1
 U 1 1 5DC9A7F9
-P 9450 2450
-F 0 "FIL1" H 9558 2631 50  0000 C CNN
-F 1 "FIL" H 9558 2540 50  0000 C CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 9450 2450 50  0001 C CNN
-F 3 "~" H 9450 2450 50  0001 C CNN
-	1    9450 2450
-	1    0    0    -1  
+P 9450 2550
+F 0 "FIL1" H 9558 2731 50  0000 C CNN
+F 1 "FIL" H 9558 2640 50  0000 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 9450 2550 50  0001 C CNN
+F 3 "~" H 9450 2550 50  0001 C CNN
+	1    9450 2550
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	10050 2450 10050 2100
@@ -1717,31 +1717,7 @@ Wire Wire Line
 	6050 5950 6050 5850
 Wire Wire Line
 	5700 5450 5700 5550
-Wire Wire Line
-	5950 5550 5700 5550
 Connection ~ 5700 5550
-$Comp
-L Connector:Conn_01x02_Male BOOST1
-U 1 1 5E2A422F
-P 5950 5350
-F 0 "BOOST1" V 6000 5100 50  0000 C CNN
-F 1 "BOOST" V 6100 5100 50  0000 C CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 5950 5350 50  0001 C CNN
-F 3 "~" H 5950 5350 50  0001 C CNN
-	1    5950 5350
-	0    -1   1    0   
-$EndComp
-$Comp
-L Valve:ECC83 U1
-U 1 1 5DB3562C
-P 5800 5050
-F 0 "U1" H 6028 5096 50  0000 L CNN
-F 1 "ECC83" H 6028 5005 50  0000 L CNN
-F 2 "tubes:NOVAL" H 6070 4650 50  0001 C CNN
-F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 5800 5050 50  0001 C CNN
-	1    5800 5050
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R37
 U 1 1 5E3FFE1A
@@ -1773,13 +1749,13 @@ $EndComp
 $Comp
 L Connector:Conn_01x02_Male OUT1
 U 1 1 5DF4505B
-P 10750 8300
-F 0 "OUT1" H 10858 8481 50  0000 C CNN
-F 1 "OUT" H 10858 8390 50  0000 C CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 10750 8300 50  0001 C CNN
-F 3 "~" H 10750 8300 50  0001 C CNN
-	1    10750 8300
-	-1   0    0    -1  
+P 10750 8400
+F 0 "OUT1" H 10858 8581 50  0000 C CNN
+F 1 "OUT" H 10858 8490 50  0000 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 10750 8400 50  0001 C CNN
+F 3 "~" H 10750 8400 50  0001 C CNN
+	1    10750 8400
+	-1   0    0    1   
 $EndComp
 Text Label 10550 8300 2    50   ~ 0
 OUT1
@@ -2114,17 +2090,6 @@ Text Label 5450 10100 0    50   ~ 0
 4ohm
 Wire Wire Line
 	5900 1200 5900 1250
-$Comp
-L Connector:Conn_01x02_Male NFB2
-U 1 1 5E09035E
-P 5900 10100
-F 0 "NFB2" H 6008 10281 50  0000 C CNN
-F 1 "NFB" H 6008 10190 50  0000 C CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 5900 10100 50  0001 C CNN
-F 3 "~" H 5900 10100 50  0001 C CNN
-	1    5900 10100
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5700 10000 5700 10100
 Connection ~ 5700 10100
@@ -2529,5 +2494,40 @@ F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x0
 F 3 "~" H 5900 1000 50  0001 C CNN
 	1    5900 1000
 	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5700 5550 5950 5550
+$Comp
+L Valve:ECC83 U1
+U 1 1 5DB3562C
+P 5800 5050
+F 0 "U1" H 6028 5096 50  0000 L CNN
+F 1 "ECC83" H 6028 5005 50  0000 L CNN
+F 2 "tubes:NOVAL" H 6070 4650 50  0001 C CNN
+F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 5800 5050 50  0001 C CNN
+	1    5800 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male BOOST1
+U 1 1 5E2A422F
+P 6050 5350
+F 0 "BOOST1" V 6050 5500 50  0000 C CNN
+F 1 "BOOST" V 6150 5500 50  0000 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 6050 5350 50  0001 C CNN
+F 3 "~" H 6050 5350 50  0001 C CNN
+	1    6050 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male NFB2
+U 1 1 5E09035E
+P 5900 10100
+F 0 "NFB2" H 6008 10281 50  0000 C CNN
+F 1 "NFB" H 6008 10190 50  0000 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 5900 10100 50  0001 C CNN
+F 3 "~" H 5900 10100 50  0001 C CNN
+	1    5900 10100
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
