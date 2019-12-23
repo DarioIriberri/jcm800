@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Dario\Documents\KiCad\Projects\JCM800\JCM800.sch)
-    (date "22/12/2019 14:59:42")
+    (date "23/12/2019 12:50:34")
     (tool "Eeschema (5.1.4)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
