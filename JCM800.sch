@@ -2045,30 +2045,6 @@ F 3 "" H 2600 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male GND9
-U 1 1 5DF1B207
-P 950 750
-F 0 "GND9" H 922 682 50  0000 R CNN
-F 1 "GND" H 922 773 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 950 750 50  0001 C CNN
-F 3 "~" H 950 750 50  0001 C CNN
-	1    950  750 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 750  1350 750 
-$Comp
-L power:GNDS #PWR0128
-U 1 1 5DF1B214
-P 1350 750
-F 0 "#PWR0128" H 1350 500 50  0001 C CNN
-F 1 "GNDS" H 1355 577 50  0000 C CNN
-F 2 "" H 1350 750 50  0001 C CNN
-F 3 "" H 1350 750 50  0001 C CNN
-	1    1350 750 
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R38
 U 1 1 5DFACF30
 P 9800 8400

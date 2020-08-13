@@ -2487,13 +2487,13 @@ B
 $Comp
 L Connector:Conn_01x02_Male AB1
 U 1 1 5DF591EA
-P 5900 1000
-F 0 "AB1" H 6008 1181 50  0000 C CNN
-F 1 "AB" H 6008 1090 50  0000 C CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 5900 1000 50  0001 C CNN
-F 3 "~" H 5900 1000 50  0001 C CNN
-	1    5900 1000
-	0    -1   1    0   
+P 6000 1000
+F 0 "AB1" V 5850 950 50  0000 C CNN
+F 1 "AB" V 5950 950 50  0000 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 6000 1000 50  0001 C CNN
+F 3 "~" H 6000 1000 50  0001 C CNN
+	1    6000 1000
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5700 5550 5950 5550

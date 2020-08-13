@@ -1,4 +1,4 @@
-update=08/12/2019 16:51:52
+update=12/08/2020 18:45:47
 version=1
 last_client=kicad
 [general]
@@ -259,7 +259,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=FIL
-Clearance=1
+Clearance=1.25
 TrackWidth=0.75
 ViaDiameter=0.8
 ViaDrill=0.4
