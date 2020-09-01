@@ -1175,17 +1175,6 @@ F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 5600 9100 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Valve:ECC83 U3
-U 3 1 5DEF183D
-P 12500 1350
-F 0 "U3" H 12728 1313 50  0000 L CNN
-F 1 "ECC83" H 12728 1222 50  0000 L CNN
-F 2 "tubes:NOVAL" H 12770 950 50  0001 C CNN
-F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 12500 1350 50  0001 C CNN
-	3    12500 1350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Valve:EL84 U4
 U 2 1 5DD2FB61
 P 13350 1400
@@ -1229,20 +1218,6 @@ F 3 "http://www.r-type.org/pdfs/el84.pdf" H 14200 1400 50  0001 C CNN
 	2    14200 1400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11550 2100 12400 2100
-Connection ~ 11550 2100
-Wire Wire Line
-	11750 2900 12600 2900
-Connection ~ 11750 2900
-Wire Wire Line
-	12600 1800 12600 2900
-Wire Wire Line
-	12400 1800 12400 2100
-Wire Wire Line
-	12400 2100 13250 2100
-Connection ~ 12400 2100
-Connection ~ 12600 2900
 $Comp
 L Valve:EL84 U5
 U 1 1 5E04B5DC
@@ -1633,9 +1608,6 @@ F 3 "~" H 5200 10100 50  0001 C CNN
 	1    5200 10100
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 12500 1800
-Wire Wire Line
-	12600 2900 14300 2900
 Wire Wire Line
 	14300 1800 14300 2900
 Wire Wire Line
@@ -2042,30 +2014,6 @@ F 1 "GNDS" H 2605 1527 50  0000 C CNN
 F 2 "" H 2600 1700 50  0001 C CNN
 F 3 "" H 2600 1700 50  0001 C CNN
 	1    2600 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male GND9
-U 1 1 5DF1B207
-P 950 750
-F 0 "GND9" H 922 682 50  0000 R CNN
-F 1 "GND" H 922 773 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 950 750 50  0001 C CNN
-F 3 "~" H 950 750 50  0001 C CNN
-	1    950  750 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 750  1350 750 
-$Comp
-L power:GNDS #PWR0128
-U 1 1 5DF1B214
-P 1350 750
-F 0 "#PWR0128" H 1350 500 50  0001 C CNN
-F 1 "GNDS" H 1355 577 50  0000 C CNN
-F 2 "" H 1350 750 50  0001 C CNN
-F 3 "" H 1350 750 50  0001 C CNN
-	1    1350 750 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2529,5 +2477,33 @@ F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x0
 F 3 "~" H 5900 10100 50  0001 C CNN
 	1    5900 10100
 	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12600 2900 14300 2900
+NoConn ~ 12500 1800
+Wire Wire Line
+	12400 2100 13250 2100
+Wire Wire Line
+	12400 1800 12400 2100
+Wire Wire Line
+	12600 1800 12600 2900
+Connection ~ 12600 2900
+Connection ~ 11750 2900
+Wire Wire Line
+	11750 2900 12600 2900
+Connection ~ 12400 2100
+Connection ~ 11550 2100
+Wire Wire Line
+	11550 2100 12400 2100
+$Comp
+L Valve:ECC83 U3
+U 3 1 5DEF183D
+P 12500 1350
+F 0 "U3" H 12728 1313 50  0000 L CNN
+F 1 "ECC83" H 12728 1222 50  0000 L CNN
+F 2 "tubes:NOVAL" H 12770 950 50  0001 C CNN
+F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 12500 1350 50  0001 C CNN
+	3    12500 1350
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
