@@ -1151,16 +1151,7 @@ F 3 "http://www.r-type.org/pdfs/el84.pdf" H 8700 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10750 2100 11550 2100
-Wire Wire Line
-	10950 1800 10950 2900
-Connection ~ 10950 2900
-Wire Wire Line
-	10950 2900 11750 2900
-Wire Wire Line
-	11750 1800 11750 2900
-NoConn ~ 11650 1800
-NoConn ~ 10850 1800
+	10750 2100 10950 2100
 Text Label 12350 4600 0    50   ~ 0
 TO_PA
 $Comp
@@ -2106,8 +2097,6 @@ Wire Wire Line
 	10050 2900 10450 2900
 Connection ~ 10450 2900
 Wire Wire Line
-	10450 2900 10950 2900
-Wire Wire Line
 	9650 2550 10050 2550
 Text Label 11200 7700 0    50   ~ 0
 FIL
@@ -2479,22 +2468,13 @@ F 3 "~" H 5900 10100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	12600 2900 14300 2900
-NoConn ~ 12500 1800
-Wire Wire Line
-	12400 2100 13250 2100
+	12400 2100 12600 2100
 Wire Wire Line
 	12400 1800 12400 2100
-Wire Wire Line
-	12600 1800 12600 2900
-Connection ~ 12600 2900
-Connection ~ 11750 2900
-Wire Wire Line
-	11750 2900 12600 2900
 Connection ~ 12400 2100
 Connection ~ 11550 2100
 Wire Wire Line
-	11550 2100 12400 2100
+	11550 2100 11750 2100
 $Comp
 L Valve:ECC83 U3
 U 3 1 5DEF183D
@@ -2506,4 +2486,36 @@ F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 12500 1350 50  0001 C CNN
 	3    12500 1350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10450 2900 10850 2900
+Wire Wire Line
+	10950 1800 10950 2100
+Connection ~ 10950 2100
+Wire Wire Line
+	10950 2100 11550 2100
+Wire Wire Line
+	11750 1800 11750 2100
+Connection ~ 11750 2100
+Wire Wire Line
+	11750 2100 12400 2100
+Wire Wire Line
+	12600 1800 12600 2100
+Connection ~ 12600 2100
+Wire Wire Line
+	12600 2100 13250 2100
+Wire Wire Line
+	12500 1800 12500 2900
+Connection ~ 12500 2900
+Wire Wire Line
+	12500 2900 14300 2900
+Wire Wire Line
+	11650 1800 11650 2900
+Connection ~ 11650 2900
+Wire Wire Line
+	11650 2900 12500 2900
+Wire Wire Line
+	10850 1800 10850 2900
+Connection ~ 10850 2900
+Wire Wire Line
+	10850 2900 11650 2900
 $EndSCHEMATC
