@@ -5,9 +5,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "JCM800 6W"
+Title "JCM800 5W"
 Date ""
-Rev "0.2"
+Rev "0.4"
 Comp "Dazz"
 Comment1 ""
 Comment2 ""
@@ -240,7 +240,7 @@ F 1 "1n" H 5365 6405 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 5288 6300 50  0001 C CNN
 F 3 "~" H 5250 6450 50  0001 C CNN
 	1    5250 6450
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	4800 6150 5250 6150
@@ -1242,17 +1242,6 @@ Wire Wire Line
 	2250 6500 2350 6500
 Wire Wire Line
 	2350 6500 2350 6550
-$Comp
-L Connector:Conn_01x01_Male B1
-U 1 1 5DB60F2C
-P 7100 2600
-F 0 "B1" H 7072 2532 50  0000 R CNN
-F 1 "B1" H 7072 2623 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7100 2600 50  0001 C CNN
-F 3 "~" H 7100 2600 50  0001 C CNN
-	1    7100 2600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9750 4600 10150 4600
 $Comp
@@ -1277,13 +1266,13 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Male FIL1
 U 1 1 5DC9A7F9
-P 9150 4250
-F 0 "FIL1" H 9258 4431 50  0000 C CNN
-F 1 "FIL" H 9258 4340 50  0000 C CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 9150 4250 50  0001 C CNN
-F 3 "~" H 9150 4250 50  0001 C CNN
-	1    9150 4250
-	1    0    0    1   
+P 9150 4150
+F 0 "FIL1" H 9258 4331 50  0000 C CNN
+F 1 "FIL" H 9258 4240 50  0000 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 9150 4150 50  0001 C CNN
+F 3 "~" H 9150 4150 50  0001 C CNN
+	1    9150 4150
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9750 4150 9750 3800
@@ -1294,7 +1283,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 4250 9500 4250
 Wire Wire Line
-	7100 2800 7100 2950
+	7100 2900 7100 2950
 Text Label 7800 4700 0    50   ~ 0
 A2
 Wire Wire Line
@@ -1557,17 +1546,6 @@ $EndComp
 Wire Wire Line
 	2650 4600 2650 4500
 Connection ~ 2650 4500
-$Comp
-L Connector:Conn_01x01_Male OUT1
-U 1 1 5DF620F1
-P 14300 5400
-F 0 "OUT1" H 14272 5332 50  0000 R CNN
-F 1 "OUT" H 14272 5423 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 14300 5400 50  0001 C CNN
-F 3 "~" H 14300 5400 50  0001 C CNN
-	1    14300 5400
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	13450 5800 13450 5400
 Text Label 14000 5400 0    50   ~ 0
@@ -1669,55 +1647,9 @@ Wire Wire Line
 Wire Wire Line
 	13350 6900 13350 7050
 Wire Wire Line
-	13450 5400 14100 5400
-Wire Wire Line
 	12850 6300 13150 6300
-$Comp
-L Device:C C17
-U 1 1 5DF5CC2A
-P 12300 6550
-F 0 "C17" H 12415 6596 50  0000 L CNN
-F 1 "22n" H 12415 6505 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L10.3mm_W5.0mm_P7.50mm_MKS4" H 12338 6400 50  0001 C CNN
-F 3 "~" H 12300 6550 50  0001 C CNN
-	1    12300 6550
-	1    0    0    -1  
-$EndComp
 Text Label 13900 6900 0    50   ~ 0
 EL84-CATHODE
-$Comp
-L Connector:Conn_01x02_Male PRESENCE1
-U 1 1 5DBF4E83
-P 12100 6950
-F 0 "PRESENCE1" H 12208 7131 50  0000 C CNN
-F 1 "PRESENCE" H 12208 7040 50  0000 C CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 12100 6950 50  0001 C CNN
-F 3 "~" H 12100 6950 50  0001 C CNN
-	1    12100 6950
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	12300 6850 12300 6700
-Wire Wire Line
-	12300 6400 12300 6300
-Wire Wire Line
-	12300 6300 12550 6300
-Wire Wire Line
-	12300 6950 12300 7100
-$Comp
-L power:GND #PWR0103
-U 1 1 5DF5D685
-P 12300 7100
-F 0 "#PWR0103" H 12300 6850 50  0001 C CNN
-F 1 "GND" H 12305 6927 50  0000 C CNN
-F 2 "" H 12300 7100 50  0001 C CNN
-F 3 "" H 12300 7100 50  0001 C CNN
-	1    12300 7100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11900 6300 12300 6300
-Connection ~ 12300 6300
 $Comp
 L Device:R R26
 U 1 1 5DE9B6B1
@@ -1734,36 +1666,22 @@ Wire Wire Line
 Wire Wire Line
 	11200 5850 11000 5850
 $Comp
-L Device:R R111
-U 1 1 5DF0E5AB
-P 5550 4250
-F 0 "R111" H 5620 4296 50  0000 L CNN
-F 1 "R" H 5620 4205 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5480 4250 50  0001 C CNN
-F 3 "~" H 5550 4250 50  0001 C CNN
-	1    5550 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DF0E964
-P 5550 4400
-F 0 "#PWR?" H 5550 4150 50  0001 C CNN
-F 1 "GND" H 5555 4227 50  0000 C CNN
-F 2 "" H 5550 4400 50  0001 C CNN
-F 3 "" H 5550 4400 50  0001 C CNN
-	1    5550 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DF0FA94
-P 5550 4100
-F 0 "#PWR?" H 5550 3850 50  0001 C CNN
-F 1 "GND" H 5555 3927 50  0000 C CNN
-F 2 "" H 5550 4100 50  0001 C CNN
-F 3 "" H 5550 4100 50  0001 C CNN
-	1    5550 4100
+L Connector:Conn_01x02_Male OUT1
+U 1 1 5E03434C
+P 14500 5500
+F 0 "OUT1" H 14608 5681 50  0000 C CNN
+F 1 "OUT" H 14608 5590 50  0000 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 14500 5500 50  0001 C CNN
+F 3 "~" H 14500 5500 50  0001 C CNN
+	1    14500 5500
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	13450 5400 14300 5400
+Text Label 14150 5500 2    50   ~ 0
+B1
+Wire Wire Line
+	14150 5500 14300 5500
+Wire Wire Line
+	11900 6300 12550 6300
 $EndSCHEMATC
