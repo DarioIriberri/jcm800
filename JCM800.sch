@@ -2479,4 +2479,6 @@ Wire Wire Line
 Connection ~ 4200 1700
 Wire Wire Line
 	4200 1700 4400 1700
+Text Notes 3300 950  0    59   ~ 12
+Requires Power \nTransformer\nWith Central Tap.
 $EndSCHEMATC
