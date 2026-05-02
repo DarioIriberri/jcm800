@@ -2914,16 +2914,16 @@
 		(uuid "76655adb-9e70-4842-abeb-e3fbb29a5e8c")
 	)
 	(junction
+		(at 265.43 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77efa48e-6137-4fb9-a6cd-1b604e649b2b")
+	)
+	(junction
 		(at 341.63 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b438ae5-3031-4696-97ee-93cf0cfd5a87")
-	)
-	(junction
-		(at 265.43 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7be2f511-0ee2-4b2c-9c1d-8f747ae51b51")
 	)
 	(junction
 		(at 144.78 140.97)
@@ -3158,6 +3158,10 @@
 		(uuid "698dd9a5-f995-472e-914b-76c7b3695bcd")
 	)
 	(no_connect
+		(at 265.43 77.47)
+		(uuid "d050ca54-7434-4ae9-a028-af07857d9a80")
+	)
+	(no_connect
 		(at 33.02 49.53)
 		(uuid "e3814aa7-5aac-4988-b22e-9fb436b7f9b4")
 	)
@@ -3313,7 +3317,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 73.66) (xy 275.59 73.66)
+			(xy 255.27 73.66) (xy 265.43 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3560,16 +3564,6 @@
 			(type default)
 		)
 		(uuid "190e8481-a297-436b-bf2f-134374aef6e3")
-	)
-	(wire
-		(pts
-			(xy 265.43 73.66) (xy 265.43 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a6d682d-bd36-4fd2-90f2-50c1c43bd865")
 	)
 	(wire
 		(pts
@@ -4043,6 +4037,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 73.66) (xy 265.43 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e367edb-a82c-4f55-b3e5-aa3702ab607a")
+	)
+	(wire
+		(pts
 			(xy 177.8 80.01) (xy 177.8 77.47)
 		)
 		(stroke
@@ -4403,16 +4407,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 73.66) (xy 265.43 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ab468b1-699c-45ed-bb49-cb1eaf355e48")
-	)
-	(wire
-		(pts
 			(xy 196.85 77.47) (xy 196.85 76.2)
 		)
 		(stroke
@@ -4760,6 +4754,16 @@
 			(type default)
 		)
 		(uuid "8e51cfbb-f1f5-43b8-817b-bd5c4722e1a5")
+	)
+	(wire
+		(pts
+			(xy 265.43 73.66) (xy 275.59 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ebb68dd-567d-4fda-9721-a5776c2651b2")
 	)
 	(wire
 		(pts
@@ -16116,70 +16120,6 @@
 			(project ""
 				(path "/b5953cb0-a383-4f71-9a8d-0d018e66526c"
 					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 265.43 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005e1ef611")
-		(property "Reference" "#PWR0101"
-			(at 265.43 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDS"
-			(at 265.557 79.3242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 265.43 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b92012d5-96da-477d-898b-4b867b74a79c")
-		)
-		(instances
-			(project ""
-				(path "/b5953cb0-a383-4f71-9a8d-0d018e66526c"
-					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
